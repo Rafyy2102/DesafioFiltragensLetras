@@ -81,25 +81,16 @@ Você pode baixar o arquivo JAR standalone do JUnit 5 diretamente do [site ofici
 
 Baixe o arquivo **`junit-platform-console-standalone-x.x.x.jar`**.
 
-### 1. Compilar os Testes com JUnit 5
-Para compilar os arquivos de teste, você precisa do JUnit 5 no classpath. Supondo que você tenha os arquivos JAR do JUnit 5, compile os arquivos de teste com o seguinte comando:
-
-```bash
- java -cp ".;junit-platform-console-standalone-1.9.2.jar" org.junit.platform.console.ConsoleLauncher --scan-classpath
-```
-Importante: Substitua `path_to_junit/junit-platform-console-standalone-1.x.x.jar` pelo caminho correto para o JUnit 5 na sua máquina.
-
-### 2. Executar os Testes Unitários
+### 1.  Executar os Testes Unitários
 Para executar os testes unitários, use o java com o classpath incluindo o JUnit 5. Execute o seguinte comando:
 
 ```bash
  java -cp ".;junit-platform-console-standalone-1.9.2.jar" org.junit.platform.console.ConsoleLauncher --scan-classpath
 ```
-Importante: Certifique-se de substituir o `path_to_junit/junit-platform-console-standalone-1.x.x.jar` pelo caminho correto para o JUnit 5 na sua máquina.
 
 Este comando irá procurar todos os testes no classpath e executá-los.
 
-### 3. Verificar a Saída dos Testes
+### 2. Verificar a Saída dos Testes
 Após executar os testes, você verá a saída indicando se os testes passaram ou falharam. Um exemplo de saída seria:
 ```bash
 3/3 tests passed
