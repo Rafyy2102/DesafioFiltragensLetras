@@ -41,6 +41,14 @@ O método replaceAll é utilizado para substituir todos os caracteres não desej
 
 Cada uma dessas soluções apresenta uma maneira de resolver o problema de filtrar as letras maiúsculas de uma string. A escolha entre elas depende de vários fatores, como simplicidade, legibilidade, desempenho e familiaridade com os conceitos utilizados.
 
+## 1. Clonar o projeto
+````Bash
+git clone https://github.com/Rafyy2102/DesafioFiltragensLetras.git
+````
+
+## 2 . Abra um terminal no projeto
+Por exemplo o GitBash
+
 ## Como Executar o Código
 
 ### 1. Compilar o Código Fonte
@@ -49,6 +57,7 @@ Para compilar os arquivos Java, você pode usar o `javac`, que é o compilador p
 
 - Navegue até o diretório onde os arquivos `.java` estão localizados.
 - Compile os arquivos utilizando o comando `javac`:
+- E para executar os codigo usar os comando `java`.
 
 ```bash
 javac main/UppercaseFilterUsingRegex.java
@@ -56,7 +65,12 @@ javac main/UppercaseFilterUsingLoop.java
 javac main/UppercaseFilterUsingStreams.java
 ```
 
-### 1.1 Baixar o JUnit 5
+```bash
+java src/main/UppercaseFilterUsingRegex.java
+java src/main/UppercaseFilterUsingLoop.java
+java src/main/UppercaseFilterUsingStreams.java
+```
+### 3 Baixar o JUnit 5
 
 Para rodar os testes unitários com **JUnit 5**, é necessário baixar a biblioteca JUnit 5 e adicioná-la ao seu projeto.
 
