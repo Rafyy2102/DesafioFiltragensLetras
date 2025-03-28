@@ -70,7 +70,7 @@ Baixe o arquivo **`junit-platform-console-standalone-x.x.x.jar`**.
 Para compilar os arquivos de teste, você precisa do JUnit 5 no classpath. Supondo que você tenha os arquivos JAR do JUnit 5, compile os arquivos de teste com o seguinte comando:
 
 ```bash
-javac -cp ".;path_to_junit/junit-platform-console-standalone-1.x.x.jar" test/UppercaseFilterTest.java
+ java -cp ".;junit-platform-console-standalone-1.9.2.jar" org.junit.platform.console.ConsoleLauncher --scan-classpath
 ```
 Importante: Substitua `path_to_junit/junit-platform-console-standalone-1.x.x.jar` pelo caminho correto para o JUnit 5 na sua máquina.
 
@@ -78,7 +78,7 @@ Importante: Substitua `path_to_junit/junit-platform-console-standalone-1.x.x.jar
 Para executar os testes unitários, use o java com o classpath incluindo o JUnit 5. Execute o seguinte comando:
 
 ```bash
-java -cp ".;path_to_junit/junit-platform-console-standalone-1.x.x.jar" org.junit.platform.console.ConsoleLauncher --scan-classpath
+ java -cp ".;junit-platform-console-standalone-1.9.2.jar" org.junit.platform.console.ConsoleLauncher --scan-classpath
 ```
 Importante: Certifique-se de substituir o `path_to_junit/junit-platform-console-standalone-1.x.x.jar` pelo caminho correto para o JUnit 5 na sua máquina.
 
