@@ -2,14 +2,6 @@
 
 Este repositório contém três abordagens distintas para filtrar as letras maiúsculas de uma string fornecida. Cada uma das soluções apresentadas utiliza uma técnica diferente: Regex, Loop e Streams. 
 
-
-## Tecnologias Utilizadas
-
-**Java 19**: A solução foi desenvolvida utilizando a versão 19 do Java, aproveitando as novas funcionalidades e otimizações da linguagem.
-
-**JUnit 5**: Testes unitários foram realizados usando o framework JUnit 5 para garantir a confiabilidade das soluções.
-
-
 ### 1. Regex (Fácil):
    Esta solução utiliza expressões regulares para filtrar apenas as letras maiúsculas. A expressão regular usada é [^A-Z], onde:
 [^A-Z] corresponde a qualquer caractere que não seja uma letra maiúscula (de A a Z).
@@ -41,17 +33,23 @@ O método replaceAll é utilizado para substituir todos os caracteres não desej
 
 Cada uma dessas soluções apresenta uma maneira de resolver o problema de filtrar as letras maiúsculas de uma string. A escolha entre elas depende de vários fatores, como simplicidade, legibilidade, desempenho e familiaridade com os conceitos utilizados.
 
-## 1. Clonar o projeto
+## Tecnologias Utilizadas
+
+**Java 19**: A solução foi desenvolvida utilizando a versão 19 do Java, aproveitando as novas funcionalidades e otimizações da linguagem.
+
+**JUnit 5**: Testes unitários foram realizados usando o framework JUnit 5 para garantir a confiabilidade das soluções.
+
+## Como utilizar:
+
+### 1. Clonar o projeto
 ````Bash
 git clone https://github.com/Rafyy2102/DesafioFiltragensLetras.git
 ````
 
-## 2 . Abra um terminal no projeto
+### 2 . Abra um terminal no projeto
 Por exemplo o GitBash
 
-## Como Executar o Código
-
-### 1. Compilar o Código Fonte com `javac`:
+### 3. Compilar o Código Fonte com `javac`:
 
 Para compilar os arquivos Java, você pode usar o `javac`, que é o compilador padrão do Java.
 
@@ -63,23 +61,17 @@ javac src/main/UppercaseFilterUsingLoop.java
 javac src/main/UppercaseFilterUsingStreams.java
 ```
 
-### 2. Executa o Código Fonte com `java`:
+### 3. Executa o Código Fonte com `java`:
   
 ```bash
 java src/main/UppercaseFilterUsingRegex.java
 java src/main/UppercaseFilterUsingLoop.java
 java src/main/UppercaseFilterUsingStreams.java
 ```
+
 ## Testes Unitários <img src="https://github.com/user-attachments/assets/a9dcff74-1e5e-455e-a01c-6dbcaa6f9065" alt="Imagem do Java" width="20"/>
 
-
 Para rodar os testes unitários com **JUnit 5**, é necessário baixar a biblioteca JUnit 5 e adicioná-la ao seu projeto.
-
-Você pode baixar o arquivo JAR standalone do JUnit 5 diretamente do [site oficial do JUnit 5](https://junit.org/junit5/) ou usar o seguinte link direto para a versão mais recente:
-
-- [JUnit 5 - JAR standalone](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.9.2/junit-platform-console-standalone-1.9.2.jar)
-
-Baixe o arquivo **`junit-platform-console-standalone-x.x.x.jar`**.
 
 ### 1.  Executar os Testes Unitários
 Para executar os testes unitários, use o java com o classpath incluindo o JUnit 5. Execute o seguinte comando:
