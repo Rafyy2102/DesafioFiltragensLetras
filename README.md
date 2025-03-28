@@ -1,4 +1,4 @@
-# Filtragens de Letras Maiúsculas ![img.png](img.png)
+# Filtragens de Letras Maiúsculas <img src="https://github.com/user-attachments/assets/4c49b711-158a-48a8-b4a2-6766bb254d80" alt="Imagem do Java" width="50"/>
 
 Este repositório contém três abordagens distintas para filtrar as letras maiúsculas de uma string fornecida. Cada uma das soluções apresentadas utiliza uma técnica diferente: Regex, Loop e Streams. 
 
@@ -89,5 +89,3 @@ Após executar os testes, você verá a saída indicando se os testes passaram o
 ```bash
 3/3 tests passed
 ```
-
-![image](https://images3.alphacoders.com/138/1384704.png)
