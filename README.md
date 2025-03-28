@@ -61,7 +61,7 @@ javac src/main/UppercaseFilterUsingLoop.java
 javac src/main/UppercaseFilterUsingStreams.java
 ```
 
-### 3. Executa o Código Fonte com `java`:
+### 4. Executa o Código Fonte com `java`:
   
 ```bash
 java src/main/UppercaseFilterUsingRegex.java
