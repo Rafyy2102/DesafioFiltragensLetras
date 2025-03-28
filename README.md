@@ -60,9 +60,9 @@ Para compilar os arquivos Java, você pode usar o `javac`, que é o compilador p
 - E para executar os codigo usar os comando `java`.
 
 ```bash
-javac main/UppercaseFilterUsingRegex.java
-javac main/UppercaseFilterUsingLoop.java
-javac main/UppercaseFilterUsingStreams.java
+javac src/main/UppercaseFilterUsingRegex.java
+javac src/main/UppercaseFilterUsingLoop.java
+javac src/main/UppercaseFilterUsingStreams.java
 ```
 
 ```bash
