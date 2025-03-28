@@ -51,13 +51,11 @@ Por exemplo o GitBash
 
 ## Como Executar o Código
 
-### 1. Compilar o Código Fonte
+### 1. Compilar o Código Fonte com `javac`:
 
 Para compilar os arquivos Java, você pode usar o `javac`, que é o compilador padrão do Java.
 
 - Navegue até o diretório onde os arquivos `.java` estão localizados.
-- Compile os arquivos utilizando o comando `javac`:
-- E para executar os codigo usar os comando `java`.
 
 ```bash
 javac src/main/UppercaseFilterUsingRegex.java
@@ -65,12 +63,15 @@ javac src/main/UppercaseFilterUsingLoop.java
 javac src/main/UppercaseFilterUsingStreams.java
 ```
 
+### 2. Executa o Código Fonte com `java`:
+  
 ```bash
 java src/main/UppercaseFilterUsingRegex.java
 java src/main/UppercaseFilterUsingLoop.java
 java src/main/UppercaseFilterUsingStreams.java
 ```
-### 3 Baixar o JUnit 5
+## Testes Unitários <img src="https://github.com/user-attachments/assets/a9dcff74-1e5e-455e-a01c-6dbcaa6f9065" alt="Imagem do Java" width="20"/>
+
 
 Para rodar os testes unitários com **JUnit 5**, é necessário baixar a biblioteca JUnit 5 e adicioná-la ao seu projeto.
 
@@ -80,7 +81,7 @@ Você pode baixar o arquivo JAR standalone do JUnit 5 diretamente do [site ofici
 
 Baixe o arquivo **`junit-platform-console-standalone-x.x.x.jar`**.
 
-### 2. Compilar os Testes com JUnit 5
+### 1. Compilar os Testes com JUnit 5
 Para compilar os arquivos de teste, você precisa do JUnit 5 no classpath. Supondo que você tenha os arquivos JAR do JUnit 5, compile os arquivos de teste com o seguinte comando:
 
 ```bash
@@ -88,7 +89,7 @@ Para compilar os arquivos de teste, você precisa do JUnit 5 no classpath. Supon
 ```
 Importante: Substitua `path_to_junit/junit-platform-console-standalone-1.x.x.jar` pelo caminho correto para o JUnit 5 na sua máquina.
 
-### 3. Executar os Testes Unitários
+### 2. Executar os Testes Unitários
 Para executar os testes unitários, use o java com o classpath incluindo o JUnit 5. Execute o seguinte comando:
 
 ```bash
@@ -98,7 +99,7 @@ Importante: Certifique-se de substituir o `path_to_junit/junit-platform-console-
 
 Este comando irá procurar todos os testes no classpath e executá-los.
 
-### 4. Verificar a Saída dos Testes
+### 3. Verificar a Saída dos Testes
 Após executar os testes, você verá a saída indicando se os testes passaram ou falharam. Um exemplo de saída seria:
 ```bash
 3/3 tests passed
