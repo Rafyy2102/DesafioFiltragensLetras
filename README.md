@@ -31,6 +31,16 @@ O método replaceAll é utilizado para substituir todos os caracteres não desej
         System.out.println("Letras maiúsculas: " + filterUppercaseUsingStream(input));
     }
 
+### 4. List<Character>:
+   Esta solução usa o metodo de Character.isUpperCase(c), verifica se o caractere é uma letra maiúscula. Se for, ele é adicionado a uma lista de caracteres, que contém apenas as letras maiúsculas
+
+
+    public static void main(String[] args) {
+        String letras = "VbAcMdfrOerSffDooEhhToooUawedRlloMwwAppIhhhTfffAsfdU!";
+        List<Character> upperCaseLetters = getUpperCaseLetters(letras);
+        System.out.println("Letras maiúsculas: " + upperCaseLetters);
+    }
+
 Cada uma dessas soluções apresenta uma maneira de resolver o problema de filtrar as letras maiúsculas de uma string. A escolha entre elas depende de vários fatores, como simplicidade, legibilidade, desempenho e familiaridade com os conceitos utilizados.
 
 ## Tecnologias Utilizadas
